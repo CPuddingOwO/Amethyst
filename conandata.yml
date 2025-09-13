@@ -1,0 +1,9 @@
+# This file is managed by Conan, contents will be overwritten.
+# To keep your changes, remove these comment lines, but the plugin won't be able to modify your requirements
+
+requirements:
+  - "libressl/3.9.1"
+  - "spdlog/1.15.1"
+  - "nlohmann_json/3.11.3"
+  - "cpp-httplib/0.19.0"
+  - "gtest/1.16.0"

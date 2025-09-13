@@ -1,0 +1,19 @@
+# vcpkg 相关文件和目录
+/vcpkg/buildtrees/
+/vcpkg/downloads/
+/vcpkg/installed/
+/vcpkg/packages/
+/vcpkg/build/
+/vcpkg/.cache/
+/vcpkg/vcpkg-artifacts/
+/vcpkg/vcpkg-cache/
+/vcpkg/*.zip
+/vcpkg/*.tar.gz
+/vcpkg/*.log
+
+# 可执行文件（视平台而定）
+/vcpkg/vcpkg.exe
+/vcpkg/vcpkg
+
+# 如果 vcpkg 是子模块，保留其核心文件，但忽略临时文件
+/vcpkg/.git/
